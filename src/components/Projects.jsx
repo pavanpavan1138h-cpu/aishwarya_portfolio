@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './Projects.css';
 
 const projectData = [
@@ -50,10 +51,25 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-section">
       <div className="container">
-        <h2 className="section-title">Selected Works</h2>
+        <motion.h2 
+          className="section-title"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.8 }}
+        >
+          Selected Works
+        </motion.h2>
         <div className="projects-grid">
-          {projectData.map((project) => (
-            <div key={project.id} className="project-card fade-in">
+          {projectData.map((project, index) => (
+            <motion.div 
+              key={project.id} 
+              className="project-card"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-50px' }}
+              transition={{ duration: 0.8, delay: index * 0.1 }}
+            >
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
                 <div className="project-overlay">
@@ -68,7 +84,7 @@ const Projects = () => {
                   <span>{project.year}</span>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
