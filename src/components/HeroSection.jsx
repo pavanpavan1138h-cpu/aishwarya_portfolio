@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 const HeroSection = () => {
@@ -21,7 +22,7 @@ const HeroSection = () => {
             Aishwarya — Creating sustainable, meaningful, and aesthetically profound spaces for modern living.
           </p>
           <div className="hero-actions">
-            <a href="#projects" className="cta-button">Explore Projects</a>
+            <Link to="/portfolio" className="cta-button">Explore Projects</Link>
           </div>
         </div>
       </div>
