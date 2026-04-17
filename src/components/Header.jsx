@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { ChevronDown } from 'lucide-react';
 import './Header.css';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,14 +18,35 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? 'scrolled glass-box' : ''}`}>
       <div className="container header-content">
-        <div className="logo">
+        <Link to="/" className="logo">
           AISHWARYA<span>.ARCH</span>
-        </div>
+        </Link>
         <nav className="nav-menu">
-          <a href="#home">Home</a>
-          <a href="#projects">Work</a>
-          <a href="#about">Profile</a>
-          <a href="#contact">Contact</a>
+          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
+          
+          <div className="dropdown">
+            <span className="dropdown-trigger">
+              Profile <ChevronDown size={14} className="dropdown-icon" />
+            </span>
+            <div className="dropdown-menu glass-box">
+              <Link to="/who-we-are" className={location.pathname === '/who-we-are' ? 'active' : ''}>Who We Are</Link>
+              <Link to="/our-team" className={location.pathname === '/our-team' ? 'active' : ''}>The Team</Link>
+            </div>
+          </div>
+
+          <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
+
+          <div className="dropdown">
+            <span className="dropdown-trigger">
+              Achievements <ChevronDown size={14} className="dropdown-icon" />
+            </span>
+            <div className="dropdown-menu glass-box">
+              <Link to="/publications" className={location.pathname === '/publications' ? 'active' : ''}>Publications</Link>
+              <Link to="/competition" className={location.pathname === '/competition' ? 'active' : ''}>Competition</Link>
+            </div>
+          </div>
+
+          <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact Us</Link>
         </nav>
       </div>
     </header>
