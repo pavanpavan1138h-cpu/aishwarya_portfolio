@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
 
 :root {
-  --bg-color: #070707;
-  --text-primary: #ededed;
-  --text-secondary: #8a8a8a;
+  --bg-color: #050505;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
   --accent-color: #d8c3a5;
-  --glass-bg: rgba(15, 15, 15, 0.65);
-  --glass-border: rgba(255, 255, 255, 0.05);
+  --glass-bg: rgba(10, 10, 10, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
   --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -27,6 +27,39 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  z-index: 0;
+}
+
+body::before, body::after {
+  content: '';
+  position: fixed;
+  width: 60vw;
+  height: 60vh;
+  border-radius: 50%;
+  filter: blur(140px);
+  z-index: -1;
+  animation: fluidBg 25s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+body::before {
+  top: -20%;
+  left: -10%;
+  background: var(--accent-color);
+}
+
+body::after {
+  bottom: -20%;
+  right: -10%;
+  background: #39527a;
+  animation-delay: -12.5s;
+}
+
+@keyframes fluidBg {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(15vw, 15vh) scale(1.3); }
 }
 
 h1, h2, h3, h4, h5, h6 {
