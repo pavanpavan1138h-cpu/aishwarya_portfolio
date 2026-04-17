@@ -14,7 +14,7 @@ const ContactPage = () => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <p><strong>Email:</strong> hello@aishwarya.arch</p>
               <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-              <p><strong>Address:</strong> 123 Creative Studio, Design District</p>
+              <p><strong>Address:</strong> Bangalore, India</p>
             </div>
           </div>
           <div className="glass-box fade-in" style={{ padding: '2.5rem' }}>
