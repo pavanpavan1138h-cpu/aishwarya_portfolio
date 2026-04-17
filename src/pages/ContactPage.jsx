@@ -4,17 +4,17 @@ const ContactPage = () => {
   return (
     <div style={{ paddingTop: '150px', paddingBottom: '50px', minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
       <div className="container" style={{ width: '100%' }}>
-        <h1 className="section-title">Let's Talk</h1>
+        <h1 className="section-title">Contact</h1>
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 1fr) minmax(300px, 1fr)', gap: '4rem', marginTop: '3rem' }}>
           <div className="fade-in">
-            <h3 style={{ fontSize: '2rem', fontWeight: 300, marginBottom: '1.5rem' }}>Reach out to me</h3>
+            <h3 style={{ fontSize: '2rem', fontWeight: 300, marginBottom: '1.5rem' }}>Get In Touch</h3>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Have a project in mind or simply want to say hello? Fill out the form or reach me via my contact details. I'd love to hear from you.
+              I am currently open for exciting new opportunities, collaborations, or freelance projects. Feel free to shoot me an email or connect through the form below.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <p><strong>Email:</strong> hello@aishwarya.arch</p>
-              <p><strong>Phone:</strong> +1 (555) 123-4567</p>
-              <p><strong>Address:</strong> Bangalore, India</p>
+              <p><strong>Email:</strong> hi@aishwarya.me</p>
+              <p><strong>LinkedIn:</strong> linkedin.com/in/aishwarya</p>
+              <p><strong>Location:</strong> Bangalore, India</p>
             </div>
           </div>
           <div className="glass-box fade-in" style={{ padding: '2.5rem' }}>
