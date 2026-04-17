@@ -39,27 +39,28 @@ body::before, body::after {
   border-radius: 50%;
   filter: blur(140px);
   z-index: -1;
-  animation: fluidBg 25s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
-  opacity: 0.25;
+  animation: fluidBg 10s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.35;
   pointer-events: none;
 }
 
 body::before {
   top: -20%;
-  left: -10%;
-  background: var(--accent-color);
+  left: -20%;
+  background: #7a00ff; /* Vivid Purple */
 }
 
 body::after {
   bottom: -20%;
-  right: -10%;
-  background: #39527a;
-  animation-delay: -12.5s;
+  right: -20%;
+  background: #00f5d4; /* Electric Teal */
+  animation-delay: -5s;
 }
 
 @keyframes fluidBg {
   0% { transform: translate(0, 0) scale(1); }
-  100% { transform: translate(15vw, 15vh) scale(1.3); }
+  50% { transform: translate(25vw, -10vh) scale(1.1); }
+  100% { transform: translate(40vw, 40vh) scale(1.4); }
 }
 
 h1, h2, h3, h4, h5, h6 {
