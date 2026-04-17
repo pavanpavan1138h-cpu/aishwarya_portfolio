@@ -7,9 +7,9 @@ const ContactPage = () => {
         <h1 className="section-title">Let's Talk</h1>
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 1fr) minmax(300px, 1fr)', gap: '4rem', marginTop: '3rem' }}>
           <div className="fade-in">
-            <h3 style={{ fontSize: '2rem', fontWeight: 300, marginBottom: '1.5rem' }}>Reach out to us</h3>
+            <h3 style={{ fontSize: '2rem', fontWeight: 300, marginBottom: '1.5rem' }}>Reach out to me</h3>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: '2rem' }}>
-              Have a project in mind or simply want to say hello? Fill out the form or reach us via our contact details. We'd love to hear from you.
+              Have a project in mind or simply want to say hello? Fill out the form or reach me via my contact details. I'd love to hear from you.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <p><strong>Email:</strong> hello@aishwarya.arch</p>

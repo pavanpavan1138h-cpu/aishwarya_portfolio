@@ -5,11 +5,9 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
-import WhoWeAre from './pages/WhoWeAre';
-import TheTeam from './pages/TheTeam';
+import AboutMe from './pages/AboutMe';
+import Experience from './pages/Experience';
 import PortfolioPage from './pages/PortfolioPage';
-import Publications from './pages/Publications';
-import Competition from './pages/Competition';
 import ContactPage from './pages/ContactPage';
 import './App.css';
 
@@ -30,11 +28,9 @@ function App() {
         <main className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/who-we-are" element={<WhoWeAre />} />
-            <Route path="/our-team" element={<TheTeam />} />
+            <Route path="/about-me" element={<AboutMe />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
-            <Route path="/publications" element={<Publications />} />
-            <Route path="/competition" element={<Competition />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>

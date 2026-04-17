@@ -29,22 +29,12 @@ const Header = () => {
               Profile <ChevronDown size={14} className="dropdown-icon" />
             </span>
             <div className="dropdown-menu glass-box">
-              <Link to="/who-we-are" className={location.pathname === '/who-we-are' ? 'active' : ''}>Who We Are</Link>
-              <Link to="/our-team" className={location.pathname === '/our-team' ? 'active' : ''}>The Team</Link>
+              <Link to="/about-me" className={location.pathname === '/about-me' ? 'active' : ''}>About Me</Link>
+              <Link to="/experience" className={location.pathname === '/experience' ? 'active' : ''}>Experience</Link>
             </div>
           </div>
 
           <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
-
-          <div className="dropdown">
-            <span className="dropdown-trigger">
-              Achievements <ChevronDown size={14} className="dropdown-icon" />
-            </span>
-            <div className="dropdown-menu glass-box">
-              <Link to="/publications" className={location.pathname === '/publications' ? 'active' : ''}>Publications</Link>
-              <Link to="/competition" className={location.pathname === '/competition' ? 'active' : ''}>Competition</Link>
-            </div>
-          </div>
 
           <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact Us</Link>
         </nav>
