@@ -29,6 +29,20 @@ const projectData = [
     category: 'Hospitality',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop',
     year: '2022'
+  },
+  {
+    id: 5,
+    title: 'Modern Concrete Villa',
+    category: 'Residential',
+    image: 'https://images.unsplash.com/photo-1481253127861-534498168948?q=80&w=2073&auto=format&fit=crop',
+    year: '2021'
+  },
+  {
+    id: 6,
+    title: 'Skyline Cultural Center',
+    category: 'Public Space',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
+    year: '2020'
   }
 ];
 
