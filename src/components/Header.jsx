@@ -23,8 +23,7 @@ const Header = () => {
         </Link>
         <nav className="nav-menu">
           <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
-          <Link to="/about-me" className={location.pathname === '/about-me' ? 'active' : ''}>About</Link>
-          <Link to="/experience" className={location.pathname === '/experience' ? 'active' : ''}>Experience</Link>
+          <Link to="/about-me" className={location.pathname === '/about-me' ? 'active' : ''}>About & Experience</Link>
           <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
           <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
         </nav>

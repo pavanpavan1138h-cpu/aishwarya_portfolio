@@ -10,7 +10,7 @@ const experienceData = [
 const Experience = () => {
   return (
     <motion.div 
-      style={{ paddingTop: '150px', paddingBottom: '100px', minHeight: '80vh' }}
+      style={{ paddingTop: '50px', paddingBottom: '100px', minHeight: '80vh' }}
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }} 
       transition={{ duration: 0.6 }}

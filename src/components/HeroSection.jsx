@@ -38,12 +38,12 @@ const HeroSection = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.p variants={itemVariants} className="hero-kicker">Architectural Designer</motion.p>
+          <motion.p variants={itemVariants} className="hero-kicker">Architect</motion.p>
           <motion.h1 variants={itemVariants} className="hero-title">
             Hi, I'm <br /><span>Aishwarya.</span>
           </motion.h1>
           <motion.p variants={itemVariants} className="hero-subtitle">
-            I'm a passionate architectural designer specializing in modern, sustainable, and highly personal spaces. Welcome to my portfolio and resume.
+            I'm a passionate architect specializing in modern, sustainable, and highly personal spaces. Welcome to my portfolio and resume.
           </motion.p>
           <motion.div variants={itemVariants} className="hero-actions">
             <Link to="/portfolio" className="cta-button">View My Work</Link>
