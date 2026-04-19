@@ -13,12 +13,12 @@ const About = () => {
             />
           </div>
           <div className="about-text">
-            <h2 className="section-title">Design Philosophy</h2>
+            <h2 className="section-title">Architectural Philosophy</h2>
             <p>
               I believe that architecture is more than just erecting walls; it is about sculpting the void. With over meticulous attention to detail, my work aims to seamlessly integrate the built environment with natural surroundings, bringing forward a dialogue between light, material, and space.
             </p>
             <p>
-              Whether it is a minimalist retreat or an expansive commercial plaza, my approach remains the same: design with intention, build with integrity, and always place the human experience at the core of every project.
+              Whether it is a minimalist retreat or an expansive commercial plaza, my approach remains the same: create with intention, build with integrity, and always place the human experience at the core of every project.
             </p>
             <div className="about-stats">
               <div className="stat">

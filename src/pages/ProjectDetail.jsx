@@ -51,8 +51,8 @@ const ProjectDetail = () => {
         <div className="detail-description">
           <p>
             This project represents a synthesis of modern form and functional elegance. 
-            Designed with meticulous attention to detail, it showcases our commitment to 
-            architectural excellence and sustainable design principles.
+            Crafted with meticulous attention to detail, it showcases our commitment to 
+            architectural excellence and sustainable architectural principles.
           </p>
         </div>
       </div>

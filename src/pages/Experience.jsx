@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const experienceData = [
-  { id: 1, role: 'Principal Architect', company: 'Aishwarya Design Studio', years: '2020 - Present', desc: 'Leading sustainable architectural and interior design projects globally.' },
-  { id: 2, role: 'Senior Designer', company: 'Global Arch Firm', years: '2016 - 2020', desc: 'Specialized in high-end residential spaces and urban planning.' },
+  { id: 1, role: 'Principal Architect', company: 'Aishwarya Architecture Studio', years: '2020 - Present', desc: 'Leading sustainable architectural and interior projects globally.' },
+  { id: 2, role: 'Senior Architect', company: 'Global Arch Firm', years: '2016 - 2020', desc: 'Specialized in high-end residential spaces and urban planning.' },
   { id: 3, role: 'Junior Architect', company: 'Creative Build Co.', years: '2014 - 2016', desc: 'Assisted in commercial real estate development and modern interiors.' },
 ];
 

@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="container hero-content">
         <div className="hero-text-wrapper">
           <h1 className="hero-title">
-            Architecture & <br /><span>Design.</span>
+            Architecture.
           </h1>
           <p className="hero-subtitle">
             Focusing on modern, sustainable, and highly personal spaces. Welcome to this professional architectural portfolio.
