@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
-import AboutMe from './pages/AboutMe';
+
 import Experience from './pages/Experience';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
@@ -29,7 +29,7 @@ function App() {
         <main className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about-me" element={<AboutMe />} />
+
             <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
