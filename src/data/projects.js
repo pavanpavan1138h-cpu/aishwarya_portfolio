@@ -17,10 +17,10 @@ export const projectData = [
     category: 'Commercial',
     image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=2070&auto=format&fit=crop',
     gallery: [
-      '',
-      '',
-      '',
-      '',
+      'https://lh3.googleusercontent.com/d/1I6SgaZzsXi1MSNLseKYglIc-OIbz7UaY',
+      'https://lh3.googleusercontent.com/d/1Yi0gwy7ZeqQYpc2F7Vw6XBaDqqo-1qXf',
+      'https://lh3.googleusercontent.com/d/1VUTJ1xV3X44wmblsqsCeK9eZqM7jgLC4',
+      'https://lh3.googleusercontent.com/d/1sBY4vhty2QA_TZzTDMAYlgBE78IGSoG2',
     ]
   },
   {
@@ -28,35 +28,22 @@ export const projectData = [
     title: 'Timber Pavilion',
     category: 'Public Space',
     image: 'https://images.unsplash.com/photo-1506146332389-18140dc7b2ea?q=80&w=2070&auto=format&fit=crop',
-    gallery: [
-      '',
-      '',
-      '',
-      '',
-    ]
+    gallery: []
   },
   {
     id: 4,
     title: 'Glass Retreat',
     category: 'Hospitality',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop',
-    gallery: [
-      '',
-      '',
-      '',
-      '',
-    ]
+    gallery: []
   },
   {
     id: 5,
     title: 'Modern Concrete Villa',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1481253127861-534498168948?q=80&w=2073&auto=format&fit=crop',
-    gallery: [ 
-      'https://drive.google.com/file/d/1I6SgaZzsXi1MSNLseKYglIc-OIbz7UaY/view?usp=sharing',
-      'https://drive.google.com/file/d/1Yi0gwy7ZeqQYpc2F7Vw6XBaDqqo-1qXf/view?usp=sharing',
-      'https://drive.google.com/file/d/1VUTJ1xV3X44wmblsqsCeK9eZqM7jgLC4/view?usp=sharing',
-      'https://drive.google.com/file/d/1sBY4vhty2QA_TZzTDMAYlgBE78IGSoG2/view?usp=sharing',
+    gallery: [
+      
     ]
   },
   {
