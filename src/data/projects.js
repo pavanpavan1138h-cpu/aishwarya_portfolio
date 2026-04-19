@@ -3,12 +3,12 @@ export const projectData = [
     id: 1,
     title: 'Facade Design for Modern Residence',
     category: 'Residential',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://drive.google.com/file/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1/view?usp=drive_link',
     gallery: [
-      '', // Paste your image URL here (Image 1)
-      '', // Paste your image URL here (Image 2)
-      '', // Paste your image URL here (Image 3)
-      '', // Paste your image URL here (Image 4)
+      'https://drive.google.com/file/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1/view?usp=drive_link', // Paste your image URL here (Image 1)
+      'https://drive.google.com/file/d/1fe8zomf5-CYOz4_GZ_kesfg83HFqYMVn/view?usp=drive_link', // Paste your image URL here (Image 2)
+      'https://drive.google.com/file/d/1yePkhG8EynEhx__8OQyK2gy2P5nQbB5r/view?usp=drive_link', // Paste your image URL here (Image 3)
+      'https://drive.google.com/file/d/1InPmjmlUKKlGeNR73-P1IEjvCA2QWnAd/view?usp=drive_link', // Paste your image URL here (Image 4)
       '', // Paste your image URL here (Image 5)
     ],
     year: '2024'
