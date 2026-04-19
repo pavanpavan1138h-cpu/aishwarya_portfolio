@@ -41,10 +41,10 @@ const Experience = () => {
               transition={{ duration: 0.7, delay: index * 0.15 }}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <h3 className="experience-role">{item.role || 'Role Title'}</h3>
+                <h3 className="experience-role">{item.role}</h3>
               </div>
-              <h4 className="experience-company">{item.company || 'Company Name'}</h4>
-              <p className="experience-desc">{item.desc || 'Description of your role and responsibilities.'}</p>
+              <h4 className="experience-company">{item.company}</h4>
+              <p className="experience-desc">{item.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -71,10 +71,10 @@ const Experience = () => {
             >
               <div className="education-icon">🎓</div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <h3 className="experience-role">{item.degree || 'Degree Title'}</h3>
+                <h3 className="experience-role">{item.degree}</h3>
               </div>
-              <h4 className="experience-company">{item.university || 'University Name'}</h4>
-              <p className="experience-desc">{item.desc || 'Details about your graduation and specialization.'}</p>
+              <h4 className="experience-company">{item.university}</h4>
+              <p className="experience-desc">{item.desc}</p>
             </motion.div>
           ))}
         </div>
