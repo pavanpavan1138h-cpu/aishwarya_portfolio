@@ -42,8 +42,8 @@
 }
 
 .detail-main-image {
-  width: 100%;
-  margin-bottom: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto 2.5rem auto;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 30px 60px rgba(0,0,0,0.5);
