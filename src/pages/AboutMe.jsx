@@ -1,16 +1,17 @@
 import React from 'react';
 import About from '../components/About';
 import Experience from './Experience';
+import './AboutMe.css';
 
 const WhoWeAre = () => {
   return (
-    <div style={{ paddingTop: '60px' }}>
+    <main className="about-page">
       <div className="container">
-        <h1 className="section-title" style={{ marginTop: '2rem' }}>About Me</h1>
+        <h1 className="section-title about-page-title">About Me</h1>
       </div>
       <About />
       <Experience />
-    </div>
+    </main>
   );
 };
 

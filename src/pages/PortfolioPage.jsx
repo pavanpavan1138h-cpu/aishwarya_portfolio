@@ -1,11 +1,12 @@
 import React from 'react';
 import Projects from '../components/Projects';
+import './PortfolioPage.css';
 
 const PortfolioPage = () => {
   return (
-    <div style={{ paddingTop: '60px', minHeight: '80vh' }}>
+    <main className="portfolio-page">
       <Projects />
-    </div>
+    </main>
   );
 };
 

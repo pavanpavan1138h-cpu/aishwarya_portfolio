@@ -9,10 +9,12 @@ const ProjectDetail = () => {
 
   if (!project) {
     return (
-      <div className="container" style={{ paddingTop: '150px', textAlign: 'center' }}>
-        <h2>Project not found</h2>
-        <Link to="/portfolio" className="cta-button">Back to Portfolio</Link>
-      </div>
+      <main className="project-not-found">
+        <div className="container">
+          <h2>Project not found</h2>
+          <Link to="/portfolio" className="cta-button">Back to Portfolio</Link>
+        </div>
+      </main>
     );
   }
 
