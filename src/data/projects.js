@@ -3,7 +3,7 @@ export const projectData = [
     id: 1,
     title: 'Facade Design for Modern Residence',
     category: 'Residential',
-    image: 'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
+    image: 'https://drive.google.com/file/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1/view?usp=sharing',
     gallery: [
       'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
       'https://lh3.googleusercontent.com/d/1fe8zomf5-CYOz4_GZ_kesfg83HFqYMVn',
