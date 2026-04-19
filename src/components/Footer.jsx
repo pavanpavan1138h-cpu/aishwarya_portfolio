@@ -15,11 +15,7 @@ const Footer = () => {
             <p>hello@aishwarya.arch</p>
             <p>+1 (555) 123-4567</p>
           </div>
-          <div className="footer-socials">
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-            <a href="#">Behance</a>
-          </div>
+
         </div>
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Aishwarya Architect. All Rights Reserved.</p>

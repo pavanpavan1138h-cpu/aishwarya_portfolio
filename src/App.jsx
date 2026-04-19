@@ -9,6 +9,7 @@ import AboutMe from './pages/AboutMe';
 import Experience from './pages/Experience';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+import ProjectDetail from './pages/ProjectDetail';
 import './App.css';
 
 const ScrollToTop = () => {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/project/:id" element={<ProjectDetail />} />
           </Routes>
         </main>
         <Footer />
