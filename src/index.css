@@ -77,10 +77,59 @@ ul {
   list-style: none;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
 .container {
+  width: 100%;
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 6%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* Ensure all media elements are responsive */
+img, video, canvas, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Fluid Typography & Mobile Reset */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1440px) {
+  html { font-size: 15px; }
+}
+
+@media (max-width: 1024px) {
+  html { font-size: 14px; }
+}
+
+@media (max-width: 480px) {
+  html { font-size: 13px; }
 }
 
 .glass-box {

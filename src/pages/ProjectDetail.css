@@ -75,15 +75,51 @@
 }
 
 @media (max-width: 768px) {
-  .detail-title {
-    font-size: 2.5rem;
-  }
-  
   .project-detail-page {
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 80px;
   }
   
   .detail-header {
+    margin: 0 auto 3rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .detail-title {
+    font-size: clamp(2.2rem, 8vw, 2.8rem);
+    margin-bottom: 1.5rem;
+  }
+  
+  .detail-meta {
+    font-size: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .detail-description p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .detail-header {
     margin-bottom: 2.5rem;
+  }
+  .detail-title {
+    font-size: clamp(1.8rem, 7vw, 2.2rem);
+    margin-bottom: 1rem;
+  }
+  .detail-main-image {
+    margin-bottom: 2rem;
+    border-radius: 0;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+  }
+  .detail-description p {
+    font-size: 1rem;
   }
 }
