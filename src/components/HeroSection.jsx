@@ -38,9 +38,8 @@ const HeroSection = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.p variants={itemVariants} className="hero-kicker">Architect</motion.p>
           <motion.h1 variants={itemVariants} className="hero-title">
-            Hi, I'm <br /><span>Aishwarya.</span>
+            I am an <br /><span>Architect.</span>
           </motion.h1>
           <motion.p variants={itemVariants} className="hero-subtitle">
             I'm a passionate architect specializing in modern, sustainable, and highly personal spaces. Welcome to my portfolio and resume.
