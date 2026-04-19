@@ -4,7 +4,7 @@ import Experience from './Experience';
 
 const WhoWeAre = () => {
   return (
-    <div style={{ paddingTop: '100px' }}>
+    <div style={{ paddingTop: '60px' }}>
       <div className="container">
         <h1 className="section-title" style={{ marginTop: '2rem' }}>About Me</h1>
       </div>

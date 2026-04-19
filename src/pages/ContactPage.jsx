@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactPage = () => {
   return (
-    <div style={{ paddingTop: '150px', paddingBottom: '50px', minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
+    <div style={{ paddingTop: '80px', paddingBottom: '50px', minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
       <div className="container" style={{ width: '100%' }}>
         <h1 className="section-title">Contact</h1>
         <div className="fade-in" style={{ marginTop: '3rem', maxWidth: '600px' }}>

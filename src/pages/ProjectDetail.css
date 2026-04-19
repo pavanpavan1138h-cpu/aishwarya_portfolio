@@ -1,11 +1,11 @@
 .project-detail-page {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   min-height: 100vh;
 }
 
 .detail-header {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   max-width: 900px;
 }
 
@@ -17,7 +17,7 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   transition: var(--transition-smooth);
 }
 
@@ -43,7 +43,7 @@
 
 .detail-main-image {
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 30px 60px rgba(0,0,0,0.5);
