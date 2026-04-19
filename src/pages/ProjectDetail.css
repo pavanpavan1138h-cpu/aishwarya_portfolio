@@ -42,7 +42,7 @@
 }
 
 .detail-main-image {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto 2rem auto;
   border-radius: 4px;
   overflow: hidden;
@@ -58,7 +58,7 @@
 
 /* Gallery Grid — uniform matrix */
 .detail-gallery {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto 3rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
