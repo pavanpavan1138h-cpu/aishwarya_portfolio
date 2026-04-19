@@ -39,10 +39,10 @@ const HeroSection = () => {
           animate="visible"
         >
           <motion.h1 variants={itemVariants} className="hero-title">
-            I am an <br /><span>Architect.</span>
+            Architecture & <br /><span>Design.</span>
           </motion.h1>
           <motion.p variants={itemVariants} className="hero-subtitle">
-            I'm a passionate architect specializing in modern, sustainable, and highly personal spaces. Welcome to my portfolio and resume.
+            Focusing on modern, sustainable, and highly personal spaces. Welcome to this professional architectural portfolio.
           </motion.p>
           <motion.div variants={itemVariants} className="hero-actions">
             <Link to="/portfolio" className="cta-button">View My Work</Link>
