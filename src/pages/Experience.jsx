@@ -40,10 +40,8 @@ const Experience = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: index * 0.15 }}
             >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <h3 className="experience-role">{item.role}</h3>
-              </div>
-              <h4 className="experience-company">{item.company}</h4>
+              <h3 className="experience-role">{item.company}</h3>
+              <h4 className="experience-company">{item.role}</h4>
               <p className="experience-desc">{item.desc}</p>
             </motion.div>
           ))}
@@ -70,10 +68,8 @@ const Experience = () => {
               transition={{ duration: 0.7, delay: index * 0.15 }}
             >
               <div className="education-icon">🎓</div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <h3 className="experience-role">{item.degree}</h3>
-              </div>
-              <h4 className="experience-company">{item.university}</h4>
+              <h3 className="experience-role">{item.university}</h3>
+              <h4 className="experience-company">{item.degree}</h4>
               <p className="experience-desc">{item.desc}</p>
             </motion.div>
           ))}
