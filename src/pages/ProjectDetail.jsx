@@ -58,6 +58,7 @@ const ProjectDetail = () => {
             ) : (
               <video 
                 src={project.video} 
+                poster={project.image}
                 autoPlay 
                 loop 
                 muted 
