@@ -32,6 +32,15 @@
   flex: 1;
 }
 
+.about-name {
+  font-size: 5rem;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.8;
