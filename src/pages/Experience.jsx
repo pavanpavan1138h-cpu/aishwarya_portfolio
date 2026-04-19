@@ -3,9 +3,14 @@ import { motion } from 'framer-motion';
 import './Experience.css';
 
 const experienceData = [
-  { id: 1, role: 'Principal Architect', company: 'Aishwarya Architecture Studio', desc: 'Leading sustainable architectural and interior projects globally.' },
-  { id: 2, role: 'Senior Architect', company: 'Global Arch Firm', desc: 'Specialized in high-end residential spaces and urban planning.' },
-  { id: 3, role: 'Junior Architect', company: 'Creative Build Co.', desc: 'Assisted in commercial real estate development and modern interiors.' },
+  { id: 1, role: '', company: '', desc: '' }, // Fill in your experience details
+  { id: 2, role: '', company: '', desc: '' }, // Fill in your experience details
+  { id: 3, role: '', company: '', desc: '' }, // Fill in your experience details
+  { id: 4, role: '', company: '', desc: '' }, // Fill in your experience details
+];
+
+const educationData = [
+  { id: 1, degree: '', university: '', desc: '' }, // Fill in your education details
 ];
 
 const Experience = () => {
@@ -36,10 +41,40 @@ const Experience = () => {
               transition={{ duration: 0.7, delay: index * 0.15 }}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <h3 className="experience-role">{item.role}</h3>
+                <h3 className="experience-role">{item.role || 'Role Title'}</h3>
               </div>
-              <h4 className="experience-company">{item.company}</h4>
-              <p className="experience-desc">{item.desc}</p>
+              <h4 className="experience-company">{item.company || 'Company Name'}</h4>
+              <p className="experience-desc">{item.desc || 'Description of your role and responsibilities.'}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Education Section */}
+        <motion.h1 
+          className="section-title education-title"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          Education
+        </motion.h1>
+        <div className="experience-list">
+          {educationData.map((item, index) => (
+            <motion.div 
+              key={item.id} 
+              className="glass-box experience-card education-card" 
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: index * 0.15 }}
+            >
+              <div className="education-icon">🎓</div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <h3 className="experience-role">{item.degree || 'Degree Title'}</h3>
+              </div>
+              <h4 className="experience-company">{item.university || 'University Name'}</h4>
+              <p className="experience-desc">{item.desc || 'Details about your graduation and specialization.'}</p>
             </motion.div>
           ))}
         </div>
