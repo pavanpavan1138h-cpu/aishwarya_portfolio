@@ -22,8 +22,6 @@ const Projects = () => {
                   <h3>{project.title}</h3>
                   <div className="project-meta">
                     <span>{project.category}</span>
-                    <span className="dot">•</span>
-                    <span>{project.year}</span>
                   </div>
                 </div>
               </div>

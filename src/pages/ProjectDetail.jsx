@@ -28,8 +28,6 @@ const ProjectDetail = () => {
           <h1 className="detail-title">{project.title}</h1>
           <div className="detail-meta">
             <span>{project.category}</span>
-            <span className="dot">•</span>
-            <span>{project.year}</span>
           </div>
         </div>
 
