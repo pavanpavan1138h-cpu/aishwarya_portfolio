@@ -24,17 +24,22 @@
 .contact-content p {
   color: var(--text-secondary);
   line-height: 1.8;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-info-card {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
-  padding: 2rem;
-  border-radius: 12px;
+  gap: 0.8rem;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.contact-info-card p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
 }
 
 .contact-link {
