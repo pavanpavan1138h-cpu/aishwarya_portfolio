@@ -14,12 +14,6 @@ const About = () => {
             <p>
               Whether it is a minimalist retreat or an expansive commercial plaza, my approach remains the same: create with intention, build with integrity, and always place the human experience at the core of every project.
             </p>
-            <div className="about-stats">
-              <div className="stat">
-                <h4>15+</h4>
-                <span>Projects Completed</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
