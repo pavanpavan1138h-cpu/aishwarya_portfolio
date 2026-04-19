@@ -13,6 +13,7 @@ const ContactPage = () => {
           </p>
           <div className="contact-info-card">
             <p><strong>Email:</strong> <a href="mailto:hi@aishwarya.me" className="contact-link">hi@aishwarya.me</a></p>
+            <p><strong>Mobile:</strong> <a href="tel:+910000000000" className="contact-link">+91 00000 00000</a></p>
             <p><strong>Location:</strong> Bangalore, India</p>
           </div>
         </section>
