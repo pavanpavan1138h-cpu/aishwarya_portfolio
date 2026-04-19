@@ -5,12 +5,11 @@ export const projectData = [
     category: 'Residential',
     image: 'https://drive.google.com/file/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1/view?usp=sharing',
     gallery: [
-      '',
       'https://lh3.googleusercontent.com/d/1fe8zomf5-CYOz4_GZ_kesfg83HFqYMVn',
       'https://lh3.googleusercontent.com/d/1yePkhG8EynEhx__8OQyK2gy2P5nQbB5r',
       'https://lh3.googleusercontent.com/d/1InPmjmlUKKlGeNR73-P1IEjvCA2QWnAd',
     ],
-    year: '2024'
+    
   },
   {
     id: 2,
