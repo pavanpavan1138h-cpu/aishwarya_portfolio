@@ -49,29 +49,11 @@
   box-shadow: 0 30px 60px rgba(0,0,0,0.5);
 }
 
-.detail-main-image img,
-.detail-video {
+.detail-main-image img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
-}
-
-.detail-video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  height: 0;
-  overflow: hidden;
-  background: #000;
-}
-
-.detail-video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
 
 .detail-description {

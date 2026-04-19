@@ -18,19 +18,6 @@ const ProjectDetail = () => {
     );
   }
 
-  const isGoogleDriveVideo = (url) => {
-    return typeof url === 'string' && (url.includes('drive.google.com') || url.includes('docs.google.com'));
-  };
-
-  const getGoogleDrivePreviewUrl = (url) => {
-    if (!url) return '';
-    const fileIdMatch = url.match(/\/d\/([^/]+)/);
-    if (fileIdMatch && fileIdMatch[1]) {
-      return `https://drive.google.com/file/d/${fileIdMatch[1]}/preview?autoplay=1`;
-    }
-    return url;
-  };
-
   return (
     <div className="project-detail-page">
       <div className="container">
@@ -45,30 +32,7 @@ const ProjectDetail = () => {
         </div>
 
         <div className="detail-main-image">
-          {project.video ? (
-            isGoogleDriveVideo(project.video) ? (
-              <div className="detail-video-wrapper">
-                <iframe 
-                  src={getGoogleDrivePreviewUrl(project.video)} 
-                  title={project.title}
-                  allow="autoplay"
-                  allowFullScreen
-                />
-              </div>
-            ) : (
-              <video 
-                src={project.video} 
-                poster={project.image}
-                autoPlay 
-                loop 
-                muted 
-                playsInline 
-                className="detail-video"
-              />
-            )
-          ) : (
-            <img src={project.image} alt={project.title} />
-          )}
+          <img src={project.image} alt={project.title} />
         </div>
 
         <div className="detail-description">
