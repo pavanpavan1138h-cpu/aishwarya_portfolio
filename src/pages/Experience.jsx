@@ -4,13 +4,13 @@ import './Experience.css';
 
 const experienceData = [
   { id: 1, role: 'Intern', company: 'RR Architects & Associates', desc: '' }, // Fill in your experience details
-  { id: 2, role: '', company: '', desc: '' }, // Fill in your experience details
-  { id: 3, role: '', company: '', desc: '' }, // Fill in your experience details
-  { id: 4, role: '', company: '', desc: '' }, // Fill in your experience details
+  { id: 2, role: 'BIM Trainee', company: 'Studio Parametric', desc: '' }, // Fill in your experience details
+  { id: 3, role: 'Junior Architect & Interior Designer', company: 'LOAM', desc: '' }, // Fill in your experience details
+  { id: 4, role: 'Junior Architect & Interior Designer', company: 'Design Saints', desc: '' }, // Fill in your experience details
 ];
 
 const educationData = [
-  { id: 1, degree: '', university: '', desc: '' }, // Fill in your education details
+  { id: 1, degree: 'Bachelor of Architecture', university: 'PES University', desc: '' }, // Fill in your education details
 ];
 
 const Experience = () => {
