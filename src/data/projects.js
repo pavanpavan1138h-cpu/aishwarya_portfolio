@@ -1,7 +1,7 @@
 export const projectData = [
   {
     id: 1,
-    title: 'Minimalist Haven',
+    title: 'Facade Design for Modern Residence',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
     gallery: [
