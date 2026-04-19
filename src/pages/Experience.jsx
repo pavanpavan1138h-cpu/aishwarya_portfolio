@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './Experience.css';
 
 const experienceData = [
-  { id: 1, role: 'hi', company: '', desc: '' }, // Fill in your experience details
+  { id: 1, role: 'hi', company: 'hi', desc: 'hi' }, // Fill in your experience details
   { id: 2, role: '', company: '', desc: '' }, // Fill in your experience details
   { id: 3, role: '', company: '', desc: '' }, // Fill in your experience details
   { id: 4, role: '', company: '', desc: '' }, // Fill in your experience details
