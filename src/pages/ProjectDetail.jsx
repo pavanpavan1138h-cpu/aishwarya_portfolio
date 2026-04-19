@@ -47,10 +47,6 @@ const ProjectDetail = () => {
             ))}
           </div>
         )}
-
-        <div className="detail-description">
-          
-        </div>
       </div>
     </div>
   );

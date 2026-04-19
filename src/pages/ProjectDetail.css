@@ -93,17 +93,6 @@
   transform: scale(1.03);
 }
 
-.detail-description {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.detail-description p {
-  font-size: 1.25rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
-  font-weight: 300;
-}
 
 .project-not-found {
   padding-top: 150px;
@@ -134,11 +123,6 @@
     gap: 1.5rem;
   }
 
-  .detail-description p {
-    font-size: 1.1rem;
-    line-height: 1.75;
-    text-align: center;
-  }
 
   .detail-gallery {
     gap: 0.75rem;
@@ -159,9 +143,7 @@
     width: calc(100% + 40px);
     margin-left: -20px;
   }
-  .detail-description p {
-    font-size: 1rem;
-  }
+
   .detail-gallery {
     grid-template-columns: 1fr;
     gap: 0.5rem;
