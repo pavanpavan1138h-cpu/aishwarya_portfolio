@@ -18,6 +18,9 @@ const ProjectDetail = () => {
     );
   }
 
+  // Filter out empty gallery strings
+  const galleryImages = (project.gallery || []).filter(img => img && img.trim() !== '');
+
   return (
     <div className="project-detail-page">
       <div className="container">
@@ -34,6 +37,16 @@ const ProjectDetail = () => {
         <div className="detail-main-image">
           <img src={project.image} alt={project.title} />
         </div>
+
+        {galleryImages.length > 0 && (
+          <div className="detail-gallery">
+            {galleryImages.map((img, index) => (
+              <div className="gallery-item" key={index}>
+                <img src={img} alt={`${project.title} - View ${index + 1}`} />
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="detail-description">
           <p>
