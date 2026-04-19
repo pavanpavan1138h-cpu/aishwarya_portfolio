@@ -32,7 +32,18 @@ const ProjectDetail = () => {
         </div>
 
         <div className="detail-main-image">
-          <img src={project.image} alt={project.title} />
+          {project.video ? (
+            <video 
+              src={project.video} 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              className="detail-video"
+            />
+          ) : (
+            <img src={project.image} alt={project.title} />
+          )}
         </div>
 
         <div className="detail-description">
