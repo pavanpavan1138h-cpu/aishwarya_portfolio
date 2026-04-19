@@ -25,10 +25,6 @@ const About = () => {
                 <h4>15+</h4>
                 <span>Projects Completed</span>
               </div>
-              <div className="stat">
-                <h4>5</h4>
-                <span>Design Awards</span>
-              </div>
             </div>
           </div>
         </div>
