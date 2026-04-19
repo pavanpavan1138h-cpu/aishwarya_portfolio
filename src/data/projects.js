@@ -3,116 +3,103 @@ export const projectData = [
     id: 1,
     title: 'Facade Design for Modern Residence',
     category: 'Residential',
-    image: 'https://drive.google.com/file/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1/view?usp=sharing',
+    image: 'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
     gallery: [
+      'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
       'https://lh3.googleusercontent.com/d/1fe8zomf5-CYOz4_GZ_kesfg83HFqYMVn',
       'https://lh3.googleusercontent.com/d/1yePkhG8EynEhx__8OQyK2gy2P5nQbB5r',
       'https://lh3.googleusercontent.com/d/1InPmjmlUKKlGeNR73-P1IEjvCA2QWnAd',
-    ],
-    
+    ]
   },
   {
     id: 2,
     title: 'Urban Oasis',
     category: 'Commercial',
     image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2023'
+    gallery: []
   },
   {
     id: 3,
     title: 'Timber Pavilion',
     category: 'Public Space',
     image: 'https://images.unsplash.com/photo-1506146332389-18140dc7b2ea?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2023'
+    gallery: []
   },
   {
     id: 4,
     title: 'Glass Retreat',
     category: 'Hospitality',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop',
-    gallery: [],
-    year: '2022'
+    gallery: []
   },
   {
     id: 5,
     title: 'Modern Concrete Villa',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1481253127861-534498168948?q=80&w=2073&auto=format&fit=crop',
-    gallery: [],
-    year: '2021'
+    gallery: []
   },
   {
     id: 6,
     title: 'Skyline Cultural Center',
     category: 'Public Space',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2020'
+    gallery: []
   },
   {
     id: 7,
     title: 'Nordic Cabin',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=2065&auto=format&fit=crop',
-    gallery: [],
-    year: '2020'
+    gallery: []
   },
   {
     id: 8,
     title: 'Artisan Workshop',
     category: 'Commercial',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop',
-    gallery: [],
-    year: '2019'
+    gallery: []
   },
   {
     id: 9,
     title: 'Eco Retreat Phase I',
     category: 'Hospitality',
     image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2019'
+    gallery: []
   },
   {
     id: 10,
     title: 'Heritage Museum Renovation',
     category: 'Public Space',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2018'
+    gallery: []
   },
   {
     id: 11,
     title: 'The Atrium',
     category: 'Commercial',
     image: 'https://images.unsplash.com/photo-1541888081682-1df6bce1eb58?q=80&w=1954&auto=format&fit=crop',
-    gallery: [],
-    year: '2018'
+    gallery: []
   },
   {
     id: 12,
     title: 'Cliffside Villa',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2017'
+    gallery: []
   },
   {
     id: 13,
     title: 'Urban Loft',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop',
-    gallery: [],
-    year: '2017'
+    gallery: []
   },
   {
     id: 14,
     title: 'Lakeside Pavilion',
     category: 'Public Space',
     image: 'https://images.unsplash.com/photo-1506146332389-18140dc7b2ea?q=80&w=2070&auto=format&fit=crop',
-    gallery: [],
-    year: '2016'
+    gallery: []
   }
 ];
