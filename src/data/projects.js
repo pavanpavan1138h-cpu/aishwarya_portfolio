@@ -4,7 +4,7 @@ export const projectData = [
     title: 'Minimalist Haven',
     category: 'Residential',
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
-    video: 'https://drive.google.com/file/d/1ZcQ4aFjYD4fYRoNlxxCUc5QkmegmH1nH/view?usp=drive_link',
+    video: '/videos/minimalist-haven.mp4', // Upload your video here for perfect looping and no menus
     year: '2024'
   },
   {
