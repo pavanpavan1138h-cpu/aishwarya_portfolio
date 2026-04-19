@@ -26,7 +26,7 @@ const ProjectDetail = () => {
     if (!url) return '';
     const fileIdMatch = url.match(/\/d\/([^/]+)/);
     if (fileIdMatch && fileIdMatch[1]) {
-      return `https://drive.google.com/file/d/${fileIdMatch[1]}/preview`;
+      return `https://drive.google.com/file/d/${fileIdMatch[1]}/preview?autoplay=1`;
     }
     return url;
   };
