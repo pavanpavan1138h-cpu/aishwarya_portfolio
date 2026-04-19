@@ -1,53 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import './HeroSection.css';
 
 const HeroSection = () => {
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1, 
-      transition: { staggerChildren: 0.2, delayChildren: 0.3 }
-    }
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] } }
-  };
-
   return (
     <section id="home" className="hero-section">
-      <motion.div 
-        className="hero-bg"
-        initial={{ scale: 1.1, filter: 'brightness(0)' }}
-        animate={{ scale: 1, filter: 'brightness(1)' }}
-        transition={{ duration: 1.5, ease: 'easeOut' }}
-      >
+      <div className="hero-bg">
         <img 
           src="https://images.unsplash.com/photo-1600607688969-a5bfcdfb4fe5?q=80&w=2070&auto=format&fit=crop" 
           alt="Modern Architecture" 
         />
         <div className="hero-overlay"></div>
-      </motion.div>
+      </div>
       <div className="container hero-content">
-        <motion.div 
-          className="hero-text-wrapper"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          <motion.h1 variants={itemVariants} className="hero-title">
+        <div className="hero-text-wrapper">
+          <h1 className="hero-title">
             Architecture & <br /><span>Design.</span>
-          </motion.h1>
-          <motion.p variants={itemVariants} className="hero-subtitle">
+          </h1>
+          <p className="hero-subtitle">
             Focusing on modern, sustainable, and highly personal spaces. Welcome to this professional architectural portfolio.
-          </motion.p>
-          <motion.div variants={itemVariants} className="hero-actions">
+          </p>
+          <div className="hero-actions">
             <Link to="/portfolio" className="cta-button">View My Work</Link>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );
