@@ -1,5 +1,8 @@
-import { projectData } from '../data/projects';
+import React from 'react';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { projectData } from '../data/projects';
+import './Projects.css';
 
 const Projects = () => {
   return (
