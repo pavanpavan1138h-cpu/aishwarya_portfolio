@@ -20,16 +20,24 @@ export const projectData = [
       'https://drive.google.com/uc?export=download&id=1D-1KaBKUnu9XfVmIis9Jkj55WrIlrNBO',
       'https://lh3.googleusercontent.com/d/1VUTJ1xV3X44wmblsqsCeK9eZqM7jgLC4',
       'https://lh3.googleusercontent.com/d/1sBY4vhty2QA_TZzTDMAYlgBE78IGSoG2',
-      '',
-      ''
+      'https://drive.google.com/file/d/1dZAK6BzbRBB6aXc61SoFGwwE2ieJgn3_/view?usp=drive_link',
+      'https://drive.google.com/file/d/1b-6z_8N0oiKbFAdxSRzMdsG9Pc6Esowk/view?usp=sharing',
+      'https://drive.google.com/file/d/1aid9Ey-bT8Y7I8uDy9uyDa0ZU6ei9vXI/view?usp=sharing'
     ]
   },
   {
     id: 3,
     title: 'Timber Pavilion',
     category: 'Public Space',
-    image: 'https://images.unsplash.com/photo-1506146332389-18140dc7b2ea?q=80&w=2070&auto=format&fit=crop',
-    gallery: []
+    image: 'https://drive.google.com/file/d/1Yjnbi8HloYWXV_dOube4EZ0O0VehgEt3/view?usp=sharing',
+    gallery: [
+      'https://drive.google.com/file/d/1OPK4UWzZ-eYp_DAaBRceiDFqCRUeiDvI/view?usp=sharing',
+      'https://drive.google.com/file/d/1hqhA78qoM4YUl9Thpj3MinVpioYG740Y/view?usp=sharing',
+      'https://drive.google.com/file/d/1PaS6EGiyGPDVroJLE3U-LDxxCy5Pexh-/view?usp=sharing',
+      'https://drive.google.com/file/d/1H43UwaKS6EM-icVbpew9Dgvh02VrRyvk/view?usp=sharing',
+      'https://drive.google.com/file/d/1Q46Y94WpDrNKlp_0BjtFQTquW36grmMY/view?usp=sharing',
+      'https://drive.google.com/file/d/10sTzUN3_2_Hh3nWoJsWLxuVpoEw5mjke/view?usp=sharing'
+    ]
   },
   {
     id: 4,
