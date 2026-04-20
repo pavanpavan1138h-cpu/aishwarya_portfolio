@@ -17,7 +17,7 @@ export const projectData = [
     category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1I6SgaZzsXi1MSNLseKYglIc-OIbz7UaY',
     gallery: [
-      'https://lh3.googleusercontent.com/d/1Yi0gwy7ZeqQYpc2F7Vw6XBaDqqo-1qXf',
+      'https://lh3.googleusercontent.com/1D-1KaBKUnu9XfVmIis9Jkj55WrIlrNBO',
       'https://lh3.googleusercontent.com/d/1VUTJ1xV3X44wmblsqsCeK9eZqM7jgLC4',
       'https://lh3.googleusercontent.com/d/1sBY4vhty2QA_TZzTDMAYlgBE78IGSoG2',
       '',
