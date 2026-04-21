@@ -1,7 +1,7 @@
 export const projectData = [
   {
     id: 1,
-    title: 'Facade Design for Modern Residence',
+    title: 'Facade Design for Mr.Abhilash Residence',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
     gallery: [
@@ -13,8 +13,8 @@ export const projectData = [
   },
   {
     id: 2,
-    title: 'Interior Design for Residence',
-    category: 'Commercial',
+    title: 'Interiors for Mr.Anil Kumar Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1I6SgaZzsXi1MSNLseKYglIc-OIbz7UaY',
     gallery: [
       'https://lh3.googleusercontent.com/d/1D-1KaBKUnu9XfVmIis9Jkj55WrIlrNBO',
@@ -27,8 +27,8 @@ export const projectData = [
   },
   {
     id: 3,
-    title: 'Timber Pavilion',
-    category: 'Public Space',
+    title: 'Anthriya Botique',
+    category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1Yjnbi8HloYWXV_dOube4EZ0O0VehgEt3',
     gallery: [
       'https://lh3.googleusercontent.com/d/1OPK4UWzZ-eYp_DAaBRceiDFqCRUeiDvI',
@@ -41,7 +41,7 @@ export const projectData = [
   },
   {
     id: 4,
-    title: 'Glass Retreat',
+    title: 'Farmhouse Retreat ',
     category: 'Hospitality',
     image: 'https://lh3.googleusercontent.com/d/1YfJsC4fh4kktXjqC9XiF1rHpQCYGRs63',
     gallery: [
@@ -54,7 +54,7 @@ export const projectData = [
   },
   {
     id: 5,
-    title: 'Modern Concrete Villa',
+    title: 'Interiors for Mr.Kamal Residence',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1CDljv3QGVyC4yQmmFa9JQDu9GZfjUozg',
     gallery: [
@@ -69,8 +69,8 @@ export const projectData = [
   },
   {
     id: 6,
-    title: 'Skyline Cultural Center',
-    category: 'Public Space',
+    title: 'Kameleon Salon',
+    category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/18VQ5XWHJeH1TtbShMJ_dCETcdPfNWEqu',
     gallery: [
       'https://lh3.googleusercontent.com/d/1BZm__C_YOUCerv_AlJKmv_g40GCc-h7I',
@@ -84,8 +84,8 @@ export const projectData = [
   },
   {
     id: 7,
-    title: 'Nordic Cabin',
-    category: 'Residential',
+    title: 'Facade Design for Mr.Linge Gowda Residence',
+    category: 'Residenti',
     image: 'https://lh3.googleusercontent.com/d/1jDuw5vdXS8nO9MFTZyJcmB_4pyWyNaga',
     gallery: [
       'https://lh3.googleusercontent.com/d/1D4dEhlcbq2-3bOf4KzyCoNrLhEZYVwfb',
@@ -95,20 +95,20 @@ export const projectData = [
   },
   {
     id: 8,
-    title: 'Artisan Workshop',
-    category: 'Commercial',
+    title: 'Prayer Room Design for Miss.Renuka Aradhya Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1uVW5iOjBXOHzvG1mMRkXikJnaxxHhrv4',
     gallery: [
       'https://lh3.googleusercontent.com/d/1iDdA49KDb9pY91_QAXzKetKclTzB-dCI',
       'https://lh3.googleusercontent.com/d/130vSJOItF_9MSIxfjdFS-C47vhx-ejWk',
       'https://lh3.googleusercontent.com/d/1CLylG3fWGnsqA6VpFdAcXT2zRVdDfwkK',
       'https://lh3.googleusercontent.com/d/1rExdiPiOF99TBY5-5bEIqYA3qUm1_lMP'
-    ]
+    ]al
   },
   {
     id: 9,
-    title: 'Eco Retreat Phase I',
-    category: 'Hospitality',
+    title: 'Interiors for Mr.Kumar Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/19XDUksQceI1lM9u_fEpMQtO126e2Yjio',
     gallery: [
       'https://lh3.googleusercontent.com/d/1mc6yvqvMHNB60sOPlcPR64_HcZn9XyYl',
@@ -120,8 +120,8 @@ export const projectData = [
   },
   {
     id: 10,
-    title: 'Heritage Museum Renovation',
-    category: 'Public Space',
+    title: 'Interiors for Mr.Lakshmi Prakash Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1tPG8p34O6kocBlZ6fBD76Zyl4fsGGq5M',
     gallery: [
       'https://lh3.googleusercontent.com/d/1-fWGTgUwCfEBSxE5N5541rUn6acD7xGi',
@@ -142,7 +142,7 @@ export const projectData = [
   },
   {
     id: 11,
-    title: 'The Atrium',
+    title: 'Popular Salon',
     category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1c5nVv8B2WC1yh1Isg6_v18nhMAC-Kqyk',
     gallery: [
@@ -155,7 +155,7 @@ export const projectData = [
   },
   {
     id: 12,
-    title: 'Cliffside Villa',
+    title: 'Facade Design for Miss.Shyla Residence',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1MB884rIpkvhwsmUV0N9RsaQJLvIrWzjR',
     gallery: [
@@ -166,7 +166,7 @@ export const projectData = [
   },
   {
     id: 13,
-    title: 'Urban Loft',
+    title: 'Interiors for Mr.Ravi Residence',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1soBkocCExygysvdIyMdN_8c8iamXIGtl',
     gallery: [
@@ -206,7 +206,7 @@ export const projectData = [
   },
   {
     id: 15,
-    title: 'Artisan Workshop',
+    title: 'Layout Design for Mr.Tarun',
     category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/10TJ6Si0wbBTAVuJW9m3p5SrR1y2eFI2G',
     gallery: [
@@ -215,7 +215,7 @@ export const projectData = [
   },
   {
     id: 16,
-    title: 'Artisan Workshop',
+    title: 'Facade Design for Mr.Lakshmi Kanth Residence',
     category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1e4MHK9ziQkfVovFRCw7s7NXxSq3zYjBs',
     gallery: [
