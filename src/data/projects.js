@@ -109,10 +109,10 @@ export const projectData = [
     id: 9,
     title: 'Eco Retreat Phase I',
     category: 'Hospitality',
-    image: 'https://lh3.googleusercontent.com/d/1wEnpqqiZ78zsE5wrfmaKSgBNZTcYo7Lx',
+    image: 'https://lh3.googleusercontent.com/d/19XDUksQceI1lM9u_fEpMQtO126e2Yjio',
     gallery: [
       'https://lh3.googleusercontent.com/d/1mc6yvqvMHNB60sOPlcPR64_HcZn9XyYl',
-      'https://lh3.googleusercontent.com/d/19XDUksQceI1lM9u_fEpMQtO126e2Yjio',
+      'https://lh3.googleusercontent.com/d/1wEnpqqiZ78zsE5wrfmaKSgBNZTcYo7Lx',
       'https://lh3.googleusercontent.com/d/1JtHOW0yJH3_-yyZRv4ViSnnfhC3lB6cl',
       'https://lh3.googleusercontent.com/d/1X55iXt5xup7iCnEJmUHAziP8ZKblt6k-',
       'https://lh3.googleusercontent.com/d/1ww8OkYbpwOugK2Mfo4PVG5y0Y8RcIjLF'
