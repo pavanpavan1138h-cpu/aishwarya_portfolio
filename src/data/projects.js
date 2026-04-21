@@ -103,7 +103,7 @@ export const projectData = [
       'https://lh3.googleusercontent.com/d/130vSJOItF_9MSIxfjdFS-C47vhx-ejWk',
       'https://lh3.googleusercontent.com/d/1CLylG3fWGnsqA6VpFdAcXT2zRVdDfwkK',
       'https://lh3.googleusercontent.com/d/1rExdiPiOF99TBY5-5bEIqYA3qUm1_lMP'
-    ]al
+    ]
   },
   {
     id: 9,
