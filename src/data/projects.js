@@ -85,7 +85,7 @@ export const projectData = [
   {
     id: 7,
     title: 'Facade Design for Mr.Linge Gowda Residence',
-    category: 'Residenti',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1jDuw5vdXS8nO9MFTZyJcmB_4pyWyNaga',
     gallery: [
       'https://lh3.googleusercontent.com/d/1D4dEhlcbq2-3bOf4KzyCoNrLhEZYVwfb',
