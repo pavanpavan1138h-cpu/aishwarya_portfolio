@@ -15,9 +15,12 @@ const ProtectedImage = ({ src, alt, className }) => (
       style={{ userSelect: 'none', WebkitUserDrag: 'none', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
     />
     <div style={{
-      position: 'absolute', bottom: '10px', right: '12px',
-      color: 'white', fontSize: '11px', opacity: 0.55,
-      fontWeight: '500', pointerEvents: 'none', letterSpacing: '0.05em'
+      position: 'absolute', top: '50%', left: '50%',
+      transform: 'translate(-50%, -50%) rotate(-45deg)',
+      color: 'white', fontSize: '3vw', opacity: 0.15,
+      fontWeight: '600', pointerEvents: 'none', letterSpacing: '0.15em',
+      whiteSpace: 'nowrap', textTransform: 'uppercase',
+      userSelect: 'none'
     }}>
       © aishwarya.arch
     </div>
