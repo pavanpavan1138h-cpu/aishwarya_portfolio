@@ -217,10 +217,10 @@ export const projectData = [
     id: 16,
     title: 'Artisan Workshop',
     category: 'Commercial',
-    image: 'https://lh3.googleusercontent.com/d/1V6Vpy8SCeKsnw6Tu9jCuv2QqM92CzN4i',
+    image: 'https://lh3.googleusercontent.com/d/1e4MHK9ziQkfVovFRCw7s7NXxSq3zYjBs',
     gallery: [
       'https://lh3.googleusercontent.com/d/1FxYq0uI7gCGmMDtHVmFE7oxvYH3UoN5L',
-      'https://lh3.googleusercontent.com/d/1e4MHK9ziQkfVovFRCw7s7NXxSq3zYjBs',
+      'https://lh3.googleusercontent.com/d/1V6Vpy8SCeKsnw6Tu9jCuv2QqM92CzN4i',
       'https://lh3.googleusercontent.com/d/1mtVT7RMDKkfWxVOYm7ZMp-qI3ge72P39',
       'https://lh3.googleusercontent.com/d/14T4zXAL4f6yX9o1pIPvyJp6xrULOb7Wg',
       'https://lh3.googleusercontent.com/d/1szA5PYQZZ6UbI6OmkZfx3_AeDJ35gQg6'
