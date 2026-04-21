@@ -16,8 +16,8 @@ const ProtectedImage = ({ src, alt, className }) => (
     />
     <div style={{
       position: 'absolute', top: '50%', left: '50%',
-      transform: 'translate(-50%, -50%) rotate(-45deg)',
-      color: '#ffffff', fontSize: '3vw', opacity: 0.5,
+      transform: 'translate(-50%, -50%)',
+      color: '#ffffff', fontSize: '1.5vw', opacity: 0.5,
       fontWeight: '600', pointerEvents: 'none', letterSpacing: '0.2em',
       whiteSpace: 'nowrap', textTransform: 'uppercase',
       userSelect: 'none',
