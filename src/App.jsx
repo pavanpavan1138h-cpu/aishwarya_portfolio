@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -11,7 +11,6 @@ import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ProjectDetail from './pages/ProjectDetail';
 import './App.css';
-import { useEffect } from "react";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -22,6 +21,15 @@ const ScrollToTop = () => {
 };
 
 function App() {
+  useEffect(() => {
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
@@ -42,13 +50,5 @@ function App() {
     </Router>
   );
 }
-useEffect(() => {
-  const handleContextMenu = (e) => e.preventDefault();
-  document.addEventListener("contextmenu", handleContextMenu);
-
-  return () => {
-    document.removeEventListener("contextmenu", handleContextMenu);
-  };
-}, []);
 
 export default App;
