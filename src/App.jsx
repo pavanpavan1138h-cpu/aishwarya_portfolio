@@ -11,6 +11,7 @@ import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ProjectDetail from './pages/ProjectDetail';
 import './App.css';
+import { useEffect } from "react";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -41,5 +42,13 @@ function App() {
     </Router>
   );
 }
+useEffect(() => {
+  const handleContextMenu = (e) => e.preventDefault();
+  document.addEventListener("contextmenu", handleContextMenu);
+
+  return () => {
+    document.removeEventListener("contextmenu", handleContextMenu);
+  };
+}, []);
 
 export default App;

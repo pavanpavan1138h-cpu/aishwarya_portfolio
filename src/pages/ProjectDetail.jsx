@@ -1,55 +1,53 @@
-import React from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { projectData } from '../data/projects';
-import './ProjectDetail.css';
+import React from "react";
 
-const ProjectDetail = () => {
-  const { id } = useParams();
-  const project = projectData.find(p => p.id === parseInt(id));
-
-  if (!project) {
-    return (
-      <main className="project-not-found">
-        <div className="container">
-          <h2>Project not found</h2>
-          <Link to="/portfolio" className="cta-button">Back to Portfolio</Link>
-        </div>
-      </main>
-    );
-  }
-
-  // Filter out empty gallery strings
-  const galleryImages = (project.gallery || []).filter(img => img && img.trim() !== '');
-
+const ProtectedImage = ({ src, alt = "", className = "" }) => {
   return (
-    <div className="project-detail-page">
-      <div className="container">
-        <div className="detail-header">
-          <Link to="/portfolio" className="back-link">
-            <span>&larr;</span> Back to Portfolio
-          </Link>
-          <h1 className="detail-title">{project.title}</h1>
-          <div className="detail-meta">
-            <span>{project.category}</span>
-          </div>
-        </div>
+    <div style={{ position: "relative", display: "inline-block" }}>
+      
+      <img
+        src={src}
+        alt={alt}
+        className={className}
+        loading="lazy"
+        draggable="false"
+        onError={(e) => {
+          e.target.src = "/fallback.jpg"; // fallback image
+        }}
+        style={{
+          userSelect: "none",
+          WebkitUserDrag: "none",
+        }}
+      />
 
-        <div className="detail-main-image">
-          <img src={project.image} alt={project.title} />
-        </div>
-
-        {galleryImages.length > 0 && (
-          <div className="detail-gallery">
-            {galleryImages.map((img, index) => (
-              <div className="gallery-item" key={index}>
-                <img src={img} alt={`${project.title} - View ${index + 1}`} />
-              </div>
-            ))}
-          </div>
-        )}
+      {/* Watermark */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "10px",
+          right: "12px",
+          color: "white",
+          fontSize: "12px",
+          opacity: 0.6,
+          fontWeight: "500",
+          pointerEvents: "none",
+        }}
+      >
+        © Aishwarya
       </div>
+
+      {/* Overlay */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          background: "transparent",
+        }}
+      />
     </div>
   );
 };
 
-export default ProjectDetail;
+export default ProtectedImage;
