@@ -124,10 +124,10 @@ export const projectData = [
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1tPG8p34O6kocBlZ6fBD76Zyl4fsGGq5M',
     gallery: [
-      'https://lh3.googleusercontent.com/d/1-fWGTgUwCfEBSxE5N5541rUn6acD7xGi',
+      'https://lh3.googleusercontent.com/d/1t8xd9_PbPPly0y8zHTT-lcb1FVzzh83m',
       'https://lh3.googleusercontent.com/d/1V8VRTk26tbG25nxpQK40elxnuK-j6Hyi',
       'https://lh3.googleusercontent.com/d/1booNMKiMxGD5gPRJltIPqOUBa-bd_YKz',
-      'https://lh3.googleusercontent.com/d/1t8xd9_PbPPly0y8zHTT-lcb1FVzzh83m',
+      'https://lh3.googleusercontent.com/d/1-fWGTgUwCfEBSxE5N5541rUn6acD7xGi',
       'https://lh3.googleusercontent.com/d/1L9Atk6d2hLRuyLccCMDttaw4u13EIBAl',
       'https://lh3.googleusercontent.com/d/1L15PqWQMC_9xA0vF023uhHIn1Ck2AEJR',
       'https://lh3.googleusercontent.com/d/1gqazuBXZ-Qnt0t8Yc8sgtcKX1GzriLEv',
@@ -187,8 +187,8 @@ export const projectData = [
   },
   {
     id: 14,
-    title: 'Lakeside Pavilion',
-    category: 'Public Space',
+    title: 'Layout Design for Mr.Tarun',
+    category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1Ber4lrXYqXDH_11ntz71QO4p1-QLLyHm',
     gallery: [
       'https://lh3.googleusercontent.com/d/1Ber4lrXYqXDH_11ntz71QO4p1-QLLyHm',
@@ -206,8 +206,8 @@ export const projectData = [
   },
   {
     id: 15,
-    title: 'Layout Design for Mr.Tarun',
-    category: 'Commercial',
+    title: 'Facade Design for Mr.Lakshmi Kanth Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/10TJ6Si0wbBTAVuJW9m3p5SrR1y2eFI2G',
     gallery: [
       'https://lh3.googleusercontent.com/d/1Pg1RDneyYwtCAXFdkQYXQYsE_YM7qkoE'
@@ -215,8 +215,8 @@ export const projectData = [
   },
   {
     id: 16,
-    title: 'Facade Design for Mr.Lakshmi Kanth Residence',
-    category: 'Commercial',
+    title: 'Facade Design for Mr.Pavan Residence',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1e4MHK9ziQkfVovFRCw7s7NXxSq3zYjBs',
     gallery: [
       'https://lh3.googleusercontent.com/d/1FxYq0uI7gCGmMDtHVmFE7oxvYH3UoN5L',
